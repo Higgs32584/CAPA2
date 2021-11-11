@@ -1,30 +1,7 @@
-# CAPA2
-Create 2 files, an html file, and a JS file that on load of the HTML file, dynamically creates a div, inside that div a select box with 10 values. 1-10 that display types of animals. When the user selects a value, it should print out to the right of the select box a description of that animal. The expectations are that the animals is a javascript object and the select box represents an array of Animals.
+#CAPA
+Assignment 1 Create 2 files, an html file, and a JS file that on load of the HTML file, dynamically creates a div, inside that div a select box with 10 values. 1-10 that display types of animals. When the user selects a value, it should print out to the right of the select box a description of that animal. The expectations are that the animals is a javascript object and the select box represents an array of Animals.
 
-1. CREATE AN HTML FILE-https://www.w3schools.com/html/html_editors.asp
-2. CREATE A JS FILE- https://www.techwalla.com/articles/how-to-create-a-js-file
-3. LOAD OF THE HTML FILE,- https://www.dummies.com/web-design-development/javascript/javascript-and-html/
-4. DYNAMICALLY CREATES A DIV - 
+Assignment 2 Create web application that returns JSON records of animals. The web application should connect to any database of your choosing, and be able to grab all animals in the database or an individual animal given an id. So if I entered http://localhost:3000/1 That should return a JSON representation of the animal identified by ID 1.
 
+Assignment 3 Connect assignment 1 and assignment 2 - and allow the user to pull the information from the database via the browser.
 
-<div> HTML element is the generic container for flow content. It has no effect on the content or layout until styled in some way using CSS (e.g. styling is directly applied to it, or some kind of layout model like Flexbox is applied to its parent element).
-  
-  
-  https://en.wikipedia.org/wiki/Dynamic_HTML
-  https://www.techiedelight.com/dynamically-create-div-javascript/
-  https://developer.mozilla.org/en-US/docs/Web/API/Document/createElement
-  
-  
-  
-  5. DATA STRUCTURES IN JAVASCRIPT
-  https://www.geeksforgeeks.org/introduction-object-oriented-programming-javascript/
-  https://www.w3schools.com/js/js_arrays.asp
-  
-  
-  
-  6. WHEN USER SELECTS VALUE--DOM BREAKPOINTS
-  https://developer.chrome.com/docs/devtools/javascript/breakpoints/#event-listeners
-  
-  
-  7. 
-  

@@ -3,14 +3,15 @@ document.addEventListener('DOMContentLoaded', function() {
 var part_1 = document.createElement('div');
 var part_2 = document.createElement('select');
 var part_3 = document.createElement('p');
-
+part_3.style = "position:relative; left:400px; top:50px";
 part_1.appendChild(part_2);
 
 part_1.id="part_1";
 part_2.id="part_2";
 part_3.id="part_3";
-part_3.innerText="this";
+part_3.innerText="Descriptions of Animals You Select Will appear here!!";
 description_array=["Has a very Long Neck!!","The Best animal out there ;)","Has a lot stripes!","Has a very Long snout,also very big!!","Steals your acorns!", "Crows a lot!!","likes fish,also complains a lot","looks in headlights a lot!","Evil Henchmen in Lion King","Likes Honey!"]
+
 let newOption = new Option('Giraffe',value = description_array[0]);
   part_2.add(newOption,undefined)
 
