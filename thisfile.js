@@ -36,8 +36,8 @@ let newOption = new Option('Giraffe',value="red");
   part_2.add(newOption8,undefined)
 
   let newOption9 = new Option('Hyena','other');
-  part_2.add(newOption9,undefined)
-
+  
+  part_2.add(newOption9,undefined) 
   let newOption10 = new Option('Bear','other');
   part_2.add(newOption10,undefined)
 
@@ -46,9 +46,12 @@ let newOption = new Option('Giraffe',value="red");
 }, false);
 
 document.addEventListener("change", function() {
-let x = document.getElementById("part_2").selectedIndex
 
-document.getElementById("part_3").innerText="Congrats!! you selected the" + x;
+  let x = document.getElementById("part_2").selectedIndex
+
+  y= document.getElementById("part_2")[x].text
+
+  document.getElementById("part_3").innerText="Congrats!! you selected the: " + y;
 });
 
 //function state_change() {
