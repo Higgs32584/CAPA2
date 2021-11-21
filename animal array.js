@@ -11,35 +11,35 @@ part_2.id="part_2";
 part_3.id="part_3";
 part_3.innerText="Descriptions of Animals You Select Will appear here!!";
 description_array=["Has a very Long Neck!!","The Best animal out there ;)","Has a lot stripes!","Has a very Long snout,also very big!!","Steals your acorns!", "Crows a lot!!","likes fish,also complains a lot","looks in headlights a lot!","Evil Henchmen in Lion King","Likes Honey!"]
-
-let newOption = new Option('Giraffe',value = description_array[0]);
+name_array=['Giraffe','Greyhound','Zebra','Elephant','Squirrel','Bird','Cat','Deer','Hyena','Bear']
+let newOption = new Option(name_array[0],value = description_array[0]);
   part_2.add(newOption,undefined)
 
-  let newOption2 = new Option('Greyhound',value = description_array[1]);
+  let newOption2 = new Option(name_array[1],value = description_array[1]);
   part_2.add(newOption2,undefined)
 
-  let newOption3 = new Option('Zebra',value = description_array[2]);
+  let newOption3 = new Option(name_array[2],value = description_array[2]);
   part_2.add(newOption3,undefined)
 
-  let newOption4 = new Option('Elephant',value = description_array[3]);
+  let newOption4 = new Option(name_array[3],value = description_array[3]);
   part_2.add(newOption4,undefined)
 
-  let newOption5 = new Option('Squirrel',value = description_array[4]);
+  let newOption5 = new Option(name_array[4],value = description_array[4]);
   part_2.add(newOption5,undefined)
 
-  let newOption6 = new Option('Bird',value = description_array[5]); 
+  let newOption6 = new Option(name_array[5],value = description_array[5]); 
   part_2.add(newOption6,undefined)
 
-  let newOption7 = new Option('Cat',value=description_array[6]);
+  let newOption7 = new Option(name_array[6],value=description_array[6]);
   part_2.add(newOption7,undefined)
 
-  let newOption8 = new Option('Deer',value=description_array[7]);
+  let newOption8 = new Option(name_array[7],value=description_array[7]);
   part_2.add(newOption8,undefined)
 
-  let newOption9 = new Option('Hyena',value=description_array[8]);
+  let newOption9 = new Option(name_array[8],value=description_array[8]);
   
   part_2.add(newOption9,undefined) 
-  let newOption10 = new Option('Bear',value=description_array[9]);
+  let newOption10 = new Option(name_array[9],value=description_array[9]);
   part_2.add(newOption10,undefined)
 
   document.body.appendChild(part_1);
